@@ -20,9 +20,9 @@ message_box = chrome.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]
 message_box.send_keys("Hello!!")
 message_box.send_keys(Keys.ENTER)
 
-for i in range(0,10):
+for i in range(0,3):
     message_box = chrome.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
-    message_box.send_keys("Sorry to disturb you Mr.busyyyy:)")
+    message_box.send_keys("This messages are being sent from automated system!")
     message_box.send_keys(Keys.ENTER)
 
 emoji = [":-)",";-)",">_<",":-(","^_^"]    
