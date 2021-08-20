@@ -19,12 +19,14 @@ Here created a Bot purely in Python.
 - Due to pandemic everything is going virtual. So people are getting connected through these social platforms where they can learn, connect, explore globlly.
 - Discord server has major role in this. So to automate its function like sending welcome messages, inspiring quotes, encouraging them, and so on. So a single person can't handle this. This is where automation comes in use.
 
-import os
-import discord
-import requests #to request http response
-import json #to get that responce
-import random
-from replit import db
-from keep_alive import keep_alive
+- import os
+- import discord
+- import requests #to request http response
+- import json #to get that responce
+- import random
+- from replit import db
+- from keep_alive import keep_alive
 
 We've imported these python libraries, to get the work done.
+
+You can aslo visit https://replit.com/@Anaghadesai/Encourage-Bot#main.py
