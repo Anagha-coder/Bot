@@ -1,2 +1,2 @@
-# WhatsApp_Bot
+# Bot
 Automated Software 
